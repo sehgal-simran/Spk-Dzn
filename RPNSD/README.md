@@ -17,7 +17,9 @@ pip install -r requirements.txt
 ```
 
 ## :open_file_folder: Test Data Preparation 
- Due to RAM constraints, the callhome dataset is stored as a test_data.hdf5 file which allows easier and faster reading and writing from memory and is made compatible with the original code by tweaking [scripts/diarization_dataset.py](https://github.com/sehgal-simran/Speaker-Diarization/blob/main/RPNSD/scripts/diarization_dataset.py)
+ Due to RAM constraints faced on processing a batch of audio files, the callhome dataset is stored as a [test_data.hdf5](https://drive.google.com/file/d/1HNVEi3mWFdpOt7y0oEuLyfBiigtR_ww_/view?usp=sharing) file which allows easier and faster reading and writing from memory and is made compatible with the original code by tweaking [scripts/diarization_dataset.py](https://github.com/sehgal-simran/Speaker-Diarization/blob/main/RPNSD/scripts/diarization_dataset.py)
+
+
 
 ## :checkered_flag: Adapted Models 	
 The callhome dataset is split into 5 folds and the pretrained model provided by [Zili Huang and team](https://drive.google.com/file/d/1EYhTADveeeMlu2J3AqzkITcKXZhbNmUa/view?usp=sharing) is adapted and tested on these folds by performing 5-fold cross validation.
