@@ -1,0 +1,2 @@
+iatb sph2pipe -f wav -p /content/RPNSD/callhome_files/iatb.sph |
+iatd sph2pipe -f wav -p /content/RPNSD/callhome_files/iatd.sph |

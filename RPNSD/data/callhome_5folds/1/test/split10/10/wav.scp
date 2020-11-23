@@ -1,0 +1,10 @@
+iasa sph2pipe -f wav -p /content/RPNSD/callhome_files/iasa.sph |
+iasd sph2pipe -f wav -p /content/RPNSD/callhome_files/iasd.sph |
+iasi sph2pipe -f wav -p /content/RPNSD/callhome_files/iasi.sph |
+iaso sph2pipe -f wav -p /content/RPNSD/callhome_files/iaso.sph |
+iasq sph2pipe -f wav -p /content/RPNSD/callhome_files/iasq.sph |
+iasr sph2pipe -f wav -p /content/RPNSD/callhome_files/iasr.sph |
+iass sph2pipe -f wav -p /content/RPNSD/callhome_files/iass.sph |
+iasw sph2pipe -f wav -p /content/RPNSD/callhome_files/iasw.sph |
+iate sph2pipe -f wav -p /content/RPNSD/callhome_files/iate.sph |
+iatf sph2pipe -f wav -p /content/RPNSD/callhome_files/iatf.sph |

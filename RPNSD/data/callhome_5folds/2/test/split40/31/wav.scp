@@ -1,0 +1,3 @@
+iank sph2pipe -f wav -p /content/RPNSD/callhome_files/iank.sph |
+ianr sph2pipe -f wav -p /content/RPNSD/callhome_files/ianr.sph |
+ians sph2pipe -f wav -p /content/RPNSD/callhome_files/ians.sph |

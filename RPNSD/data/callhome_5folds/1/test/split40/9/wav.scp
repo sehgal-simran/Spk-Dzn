@@ -1,0 +1,3 @@
+iaeg sph2pipe -f wav -p /content/RPNSD/callhome_files/iaeg.sph |
+iael sph2pipe -f wav -p /content/RPNSD/callhome_files/iael.sph |
+iaew sph2pipe -f wav -p /content/RPNSD/callhome_files/iaew.sph |

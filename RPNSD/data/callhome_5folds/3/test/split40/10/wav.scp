@@ -1,0 +1,2 @@
+iady sph2pipe -f wav -p /content/RPNSD/callhome_files/iady.sph |
+iaec sph2pipe -f wav -p /content/RPNSD/callhome_files/iaec.sph |

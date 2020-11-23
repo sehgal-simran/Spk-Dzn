@@ -1,0 +1,3 @@
+iaoi sph2pipe -f wav -p /content/RPNSD/callhome_files/iaoi.sph |
+iaor sph2pipe -f wav -p /content/RPNSD/callhome_files/iaor.sph |
+iaot sph2pipe -f wav -p /content/RPNSD/callhome_files/iaot.sph |

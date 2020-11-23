@@ -1,0 +1,2 @@
+iack sph2pipe -f wav -p /content/RPNSD/callhome_files/iack.sph |
+iact sph2pipe -f wav -p /content/RPNSD/callhome_files/iact.sph |

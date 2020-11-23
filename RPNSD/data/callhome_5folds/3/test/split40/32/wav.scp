@@ -1,0 +1,2 @@
+iapk sph2pipe -f wav -p /content/RPNSD/callhome_files/iapk.sph |
+iapu sph2pipe -f wav -p /content/RPNSD/callhome_files/iapu.sph |

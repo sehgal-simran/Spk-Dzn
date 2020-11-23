@@ -1,0 +1,2 @@
+iaol sph2pipe -f wav -p /content/RPNSD/callhome_files/iaol.sph |
+iapj sph2pipe -f wav -p /content/RPNSD/callhome_files/iapj.sph |

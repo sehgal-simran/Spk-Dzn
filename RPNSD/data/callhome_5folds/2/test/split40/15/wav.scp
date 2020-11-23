@@ -1,0 +1,3 @@
+iagj sph2pipe -f wav -p /content/RPNSD/callhome_files/iagj.sph |
+iagm sph2pipe -f wav -p /content/RPNSD/callhome_files/iagm.sph |
+iago sph2pipe -f wav -p /content/RPNSD/callhome_files/iago.sph |

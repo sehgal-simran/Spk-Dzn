@@ -1,0 +1,3 @@
+iarh sph2pipe -f wav -p /content/RPNSD/callhome_files/iarh.sph |
+iarn sph2pipe -f wav -p /content/RPNSD/callhome_files/iarn.sph |
+iarr sph2pipe -f wav -p /content/RPNSD/callhome_files/iarr.sph |

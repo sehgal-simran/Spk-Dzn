@@ -1,0 +1,3 @@
+iamd sph2pipe -f wav -p /content/RPNSD/callhome_files/iamd.sph |
+iame sph2pipe -f wav -p /content/RPNSD/callhome_files/iame.sph |
+iamh sph2pipe -f wav -p /content/RPNSD/callhome_files/iamh.sph |

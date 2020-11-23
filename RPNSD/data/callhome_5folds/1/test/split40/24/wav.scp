@@ -1,0 +1,2 @@
+ialx sph2pipe -f wav -p /content/RPNSD/callhome_files/ialx.sph |
+iama sph2pipe -f wav -p /content/RPNSD/callhome_files/iama.sph |

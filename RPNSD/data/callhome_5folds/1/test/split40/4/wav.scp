@@ -1,0 +1,2 @@
+iacd sph2pipe -f wav -p /content/RPNSD/callhome_files/iacd.sph |
+iacn sph2pipe -f wav -p /content/RPNSD/callhome_files/iacn.sph |

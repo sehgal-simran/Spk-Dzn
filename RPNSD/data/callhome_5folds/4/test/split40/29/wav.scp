@@ -1,0 +1,3 @@
+ianx sph2pipe -f wav -p /content/RPNSD/callhome_files/ianx.sph |
+iaob sph2pipe -f wav -p /content/RPNSD/callhome_files/iaob.sph |
+iaof sph2pipe -f wav -p /content/RPNSD/callhome_files/iaof.sph |

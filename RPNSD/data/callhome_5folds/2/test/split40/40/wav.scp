@@ -1,0 +1,2 @@
+iasp sph2pipe -f wav -p /content/RPNSD/callhome_files/iasp.sph |
+iata sph2pipe -f wav -p /content/RPNSD/callhome_files/iata.sph |

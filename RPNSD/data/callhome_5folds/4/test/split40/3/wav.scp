@@ -1,0 +1,3 @@
+iabh sph2pipe -f wav -p /content/RPNSD/callhome_files/iabh.sph |
+iabn sph2pipe -f wav -p /content/RPNSD/callhome_files/iabn.sph |
+iabq sph2pipe -f wav -p /content/RPNSD/callhome_files/iabq.sph |

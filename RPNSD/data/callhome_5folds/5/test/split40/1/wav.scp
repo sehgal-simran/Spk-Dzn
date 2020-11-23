@@ -1,0 +1,3 @@
+iaat sph2pipe -f wav -p /content/RPNSD/callhome_files/iaat.sph |
+iaax sph2pipe -f wav -p /content/RPNSD/callhome_files/iaax.sph |
+iaay sph2pipe -f wav -p /content/RPNSD/callhome_files/iaay.sph |

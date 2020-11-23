@@ -1,0 +1,10 @@
+iamd sph2pipe -f wav -p /content/RPNSD/callhome_files/iamd.sph |
+iame sph2pipe -f wav -p /content/RPNSD/callhome_files/iame.sph |
+iamh sph2pipe -f wav -p /content/RPNSD/callhome_files/iamh.sph |
+iamk sph2pipe -f wav -p /content/RPNSD/callhome_files/iamk.sph |
+iamq sph2pipe -f wav -p /content/RPNSD/callhome_files/iamq.sph |
+iana sph2pipe -f wav -p /content/RPNSD/callhome_files/iana.sph |
+ianc sph2pipe -f wav -p /content/RPNSD/callhome_files/ianc.sph |
+iand sph2pipe -f wav -p /content/RPNSD/callhome_files/iand.sph |
+ianq sph2pipe -f wav -p /content/RPNSD/callhome_files/ianq.sph |
+iaoj sph2pipe -f wav -p /content/RPNSD/callhome_files/iaoj.sph |

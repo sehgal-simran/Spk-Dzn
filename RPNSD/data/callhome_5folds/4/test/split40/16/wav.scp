@@ -1,0 +1,2 @@
+iahq sph2pipe -f wav -p /content/RPNSD/callhome_files/iahq.sph |
+iaht sph2pipe -f wav -p /content/RPNSD/callhome_files/iaht.sph |

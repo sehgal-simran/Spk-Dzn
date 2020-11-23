@@ -1,0 +1,2 @@
+ianw sph2pipe -f wav -p /content/RPNSD/callhome_files/ianw.sph |
+iany sph2pipe -f wav -p /content/RPNSD/callhome_files/iany.sph |

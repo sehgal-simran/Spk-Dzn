@@ -1,0 +1,3 @@
+ianl sph2pipe -f wav -p /content/RPNSD/callhome_files/ianl.sph |
+iano sph2pipe -f wav -p /content/RPNSD/callhome_files/iano.sph |
+ianp sph2pipe -f wav -p /content/RPNSD/callhome_files/ianp.sph |

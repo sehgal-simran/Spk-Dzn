@@ -1,0 +1,10 @@
+iacr sph2pipe -f wav -p /content/RPNSD/callhome_files/iacr.sph |
+iacu sph2pipe -f wav -p /content/RPNSD/callhome_files/iacu.sph |
+iada sph2pipe -f wav -p /content/RPNSD/callhome_files/iada.sph |
+iadc sph2pipe -f wav -p /content/RPNSD/callhome_files/iadc.sph |
+iadd sph2pipe -f wav -p /content/RPNSD/callhome_files/iadd.sph |
+iadq sph2pipe -f wav -p /content/RPNSD/callhome_files/iadq.sph |
+iadr sph2pipe -f wav -p /content/RPNSD/callhome_files/iadr.sph |
+iadz sph2pipe -f wav -p /content/RPNSD/callhome_files/iadz.sph |
+iaea sph2pipe -f wav -p /content/RPNSD/callhome_files/iaea.sph |
+iaee sph2pipe -f wav -p /content/RPNSD/callhome_files/iaee.sph |

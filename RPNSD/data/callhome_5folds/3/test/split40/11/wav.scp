@@ -1,0 +1,3 @@
+iaeq sph2pipe -f wav -p /content/RPNSD/callhome_files/iaeq.sph |
+iaez sph2pipe -f wav -p /content/RPNSD/callhome_files/iaez.sph |
+iafa sph2pipe -f wav -p /content/RPNSD/callhome_files/iafa.sph |

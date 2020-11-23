@@ -1,0 +1,3 @@
+iage sph2pipe -f wav -p /content/RPNSD/callhome_files/iage.sph |
+iagh sph2pipe -f wav -p /content/RPNSD/callhome_files/iagh.sph |
+iahf sph2pipe -f wav -p /content/RPNSD/callhome_files/iahf.sph |

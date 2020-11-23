@@ -1,0 +1,3 @@
+iaqk sph2pipe -f wav -p /content/RPNSD/callhome_files/iaqk.sph |
+iaqo sph2pipe -f wav -p /content/RPNSD/callhome_files/iaqo.sph |
+iaqp sph2pipe -f wav -p /content/RPNSD/callhome_files/iaqp.sph |
