@@ -2,16 +2,16 @@
 This repository is an extended version of the [RPNSD](https://github.com/HuangZiliAndy/RPNSD) repository by [Zili Huang](https://github.com/HuangZiliAndy) and [Yusuke Fujita](https://github.com/yubouf). This version includes adapted pretrained models on the CALLHOME dataset and aims to verify the results reported in the paper [Speaker Diarization with Region Proposal Network](https://arxiv.org/pdf/2002.06220.pdf)
 
 ## :computer: Install 
-1. Clone this project
+
+
+
+
+1. Environment Preparation: Install PyTorch (0.4.0) and torchvision according to your CUDA version
 ```bash
-git clone https://github.com/HuangZiliAndy/RPNSD.git
-cd RPNSD
-```
-2. Environment Preparation: Install PyTorch (0.4.0) and torchvision according to your CUDA version
-```
+
 conda install pytorch==0.4.0 cuda91 torchvision pillow"<7" -c pytorch
 ```
-3. Install the packages in requirements.txt
+2. Install the packages in requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
