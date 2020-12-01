@@ -1,0 +1,11 @@
+# ivector-extractor-init --ivector-dim=400 --use-weights=false "gmm-global-to-fgmm exp/extractor_diag_c1024_i400/final.dubm -|" exp/extractor_diag_c1024_i400/0.ie 
+# Invoked at Tue Jul 21 07:34:33 SGT 2020 from node04
+#
+# Started at Tue Jul 21 07:35:04 SGT 2020 on node05
+ivector-extractor-init --ivector-dim=400 --use-weights=false 'gmm-global-to-fgmm exp/extractor_diag_c1024_i400/final.dubm -|' exp/extractor_diag_c1024_i400/0.ie 
+gmm-global-to-fgmm exp/extractor_diag_c1024_i400/final.dubm - 
+LOG (gmm-global-to-fgmm[5.5.433~1452-7637d]:main():gmm-global-to-fgmm.cc:58) Written full GMM to -
+LOG (ivector-extractor-init[5.5.433~1452-7637d]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-init[5.5.433~1452-7637d]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (ivector-extractor-init[5.5.433~1452-7637d]:main():ivector-extractor-init.cc:62) Initialized iVector extractor with iVector dimension 400 and wrote it to exp/extractor_diag_c1024_i400/0.ie
+# Ended (code 0) at Tue Jul 21 07:35:06 SGT 2020, elapsed time 33 seconds

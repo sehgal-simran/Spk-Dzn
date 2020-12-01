@@ -1,0 +1,32 @@
+# gmm-gselect --n=30 exp/diag_ubm_1024/0.dubm "ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/15/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/15/vad.scp ark:- | subsample-feats --n=1 ark:- ark:- |" "ark:|gzip -c >exp/diag_ubm_1024/gselect.15.gz" 
+# Invoked at Tue Jul 21 06:48:15 SGT 2020 from node04
+#
+# Started at Tue Jul 21 06:48:43 SGT 2020 on node02
+gmm-gselect --n=30 exp/diag_ubm_1024/0.dubm 'ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/15/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/15/vad.scp ark:- | subsample-feats --n=1 ark:- ark:- |' 'ark:|gzip -c >exp/diag_ubm_1024/gselect.15.gz' 
+select-voiced-frames ark:- scp,s,cs:data/sre08/split40/15/vad.scp ark:- 
+add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/15/feats.scp ark:- 
+subsample-feats --n=1 ark:- ark:- 
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 0'th file, average UBM likelihood over 19189 frames is -77.8871
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 10'th file, average UBM likelihood over 12887 frames is -76.2827
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 20'th file, average UBM likelihood over 19990 frames is -77.4268
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 30'th file, average UBM likelihood over 21838 frames is -75.6359
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 40'th file, average UBM likelihood over 15608 frames is -76.3196
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 50'th file, average UBM likelihood over 11871 frames is -75.3123
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 60'th file, average UBM likelihood over 14759 frames is -75.4097
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 70'th file, average UBM likelihood over 14097 frames is -74.9682
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 80'th file, average UBM likelihood over 21556 frames is -76.596
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 90'th file, average UBM likelihood over 22137 frames is -75.1419
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 100'th file, average UBM likelihood over 14891 frames is -74.4149
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 110'th file, average UBM likelihood over 16913 frames is -75.9697
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 120'th file, average UBM likelihood over 22358 frames is -73.8284
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 130'th file, average UBM likelihood over 12358 frames is -76.9185
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 140'th file, average UBM likelihood over 16050 frames is -75.8958
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 150'th file, average UBM likelihood over 11859 frames is -75.5134
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 160'th file, average UBM likelihood over 14406 frames is -76.3951
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 170'th file, average UBM likelihood over 14489 frames is -76.0206
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:114) For 180'th file, average UBM likelihood over 10746 frames is -75.1761
+LOG (select-voiced-frames[5.5.433~1452-7637d]:main():select-voiced-frames.cc:106) Done selecting voiced frames; processed 188 utterances, 0 had errors.
+LOG (subsample-feats[5.5.433~1452-7637d]:main():subsample-feats.cc:115) Processed 188 feature matrices; 0 with errors.
+LOG (subsample-feats[5.5.433~1452-7637d]:main():subsample-feats.cc:117) Processed 2988926 input frames and 2988926 output frames.
+LOG (gmm-gselect[5.5.433~1452-7637d]:main():gmm-gselect.cc:125) Done 188 files, 0 with errors, average UBM log-likelihood is -75.957 over 2988926 frames.
+# Ended (code 0) at Tue Jul 21 06:50:16 SGT 2020, elapsed time 121 seconds

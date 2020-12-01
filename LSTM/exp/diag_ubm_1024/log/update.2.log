@@ -1,0 +1,10 @@
+# gmm-global-est --remove-low-count-gaussians=false --min-gaussian-weight=0.0001 exp/diag_ubm_1024/2.dubm "gmm-global-sum-accs - exp/diag_ubm_1024/2.*.acc|" exp/diag_ubm_1024/3.dubm 
+# Invoked at Tue Jul 21 07:00:57 SGT 2020 from node04
+#
+# Started at Tue Jul 21 07:00:58 SGT 2020 on node03
+gmm-global-est --remove-low-count-gaussians=false --min-gaussian-weight=0.0001 exp/diag_ubm_1024/2.dubm 'gmm-global-sum-accs - exp/diag_ubm_1024/2.*.acc|' exp/diag_ubm_1024/3.dubm 
+gmm-global-sum-accs - exp/diag_ubm_1024/2.1.acc exp/diag_ubm_1024/2.10.acc exp/diag_ubm_1024/2.11.acc exp/diag_ubm_1024/2.12.acc exp/diag_ubm_1024/2.13.acc exp/diag_ubm_1024/2.14.acc exp/diag_ubm_1024/2.15.acc exp/diag_ubm_1024/2.16.acc exp/diag_ubm_1024/2.17.acc exp/diag_ubm_1024/2.18.acc exp/diag_ubm_1024/2.19.acc exp/diag_ubm_1024/2.2.acc exp/diag_ubm_1024/2.20.acc exp/diag_ubm_1024/2.21.acc exp/diag_ubm_1024/2.22.acc exp/diag_ubm_1024/2.23.acc exp/diag_ubm_1024/2.24.acc exp/diag_ubm_1024/2.25.acc exp/diag_ubm_1024/2.26.acc exp/diag_ubm_1024/2.27.acc exp/diag_ubm_1024/2.28.acc exp/diag_ubm_1024/2.29.acc exp/diag_ubm_1024/2.3.acc exp/diag_ubm_1024/2.30.acc exp/diag_ubm_1024/2.31.acc exp/diag_ubm_1024/2.32.acc exp/diag_ubm_1024/2.33.acc exp/diag_ubm_1024/2.34.acc exp/diag_ubm_1024/2.35.acc exp/diag_ubm_1024/2.36.acc exp/diag_ubm_1024/2.37.acc exp/diag_ubm_1024/2.38.acc exp/diag_ubm_1024/2.39.acc exp/diag_ubm_1024/2.4.acc exp/diag_ubm_1024/2.40.acc exp/diag_ubm_1024/2.5.acc exp/diag_ubm_1024/2.6.acc exp/diag_ubm_1024/2.7.acc exp/diag_ubm_1024/2.8.acc exp/diag_ubm_1024/2.9.acc 
+LOG (gmm-global-sum-accs[5.5.433~1452-7637d]:main():gmm-global-sum-accs.cc:59) Written stats to -
+LOG (gmm-global-est[5.5.433~1452-7637d]:main():gmm-global-est.cc:80) Overall objective function improvement is 0.00500905 per frame over 1.69677e+08 frames.
+LOG (gmm-global-est[5.5.433~1452-7637d]:main():gmm-global-est.cc:90) Written model to exp/diag_ubm_1024/3.dubm
+# Ended (code 0) at Tue Jul 21 07:00:58 SGT 2020, elapsed time 1 seconds

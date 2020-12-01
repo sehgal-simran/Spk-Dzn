@@ -1,0 +1,12 @@
+# gmm-global-get-post --n=20 --min-post=0.025 exp/extractor_diag_c1024_i400/final.dubm "ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/19/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/19/vad.scp ark:- |" ark:- | scale-post ark:- 1.0 "ark:|gzip -c >exp/extractor_diag_c1024_i400/post.19.gz" 
+# Invoked at Tue Jul 21 07:35:07 SGT 2020 from node04
+#
+# Started at Tue Jul 21 07:36:04 SGT 2020 on node01
+scale-post ark:- 1.0 'ark:|gzip -c >exp/extractor_diag_c1024_i400/post.19.gz' 
+gmm-global-get-post --n=20 --min-post=0.025 exp/extractor_diag_c1024_i400/final.dubm 'ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/19/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/19/vad.scp ark:- |' ark:- 
+add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/19/feats.scp ark:- 
+select-voiced-frames ark:- scp,s,cs:data/sre08/split40/19/vad.scp ark:- 
+LOG (select-voiced-frames[5.5.433~1452-7637d]:main():select-voiced-frames.cc:106) Done selecting voiced frames; processed 209 utterances, 0 had errors.
+LOG (gmm-global-get-post[5.5.433~1452-7637d]:main():gmm-global-get-post.cc:115) Done 209 files, 0 with errors, average UBM log-likelihood is -75.6432 over 3386898 frames.
+LOG (scale-post[5.5.433~1452-7637d]:main():scale-post.cc:79) Done 209 posteriors;  0 had no scales.
+# Ended (code 0) at Tue Jul 21 07:36:58 SGT 2020, elapsed time 111 seconds

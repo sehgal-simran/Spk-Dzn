@@ -1,0 +1,7 @@
+# gmm-global-copy --binary=false exp/diag_ubm_1024/final.dubm exp/VB/tmp/dubm.tmp 
+# Started at Mon Oct 26 16:00:25 CST 2020
+#
+gmm-global-copy --binary=false exp/diag_ubm_1024/final.dubm exp/VB/tmp/dubm.tmp 
+LOG (gmm-global-copy[5.5]:main():gmm-global-copy.cc:56) Written model to exp/VB/tmp/dubm.tmp
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Oct 26 16:00:25 CST 2020, elapsed time 0 seconds

@@ -1,0 +1,6 @@
+# ivector-extractor-copy --binary=false exp/extractor_diag_c1024_i400/final.ie exp/VB/tmp/ie.tmp 
+# Started at Mon Oct 26 16:00:25 CST 2020
+#
+ivector-extractor-copy --binary=false exp/extractor_diag_c1024_i400/final.ie exp/VB/tmp/ie.tmp 
+LOG (ivector-extractor-copy[5.5]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-copy[5.5]:ComputeDerivedVars():ivector-extractor.cc:204) Done.

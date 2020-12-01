@@ -1,0 +1,15 @@
+# gmm-global-acc-stats "--gselect=ark,s,cs:gunzip -c exp/diag_ubm_1024/gselect.10.gz|" exp/diag_ubm_1024/3.dubm "ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/10/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/10/vad.scp ark:- | subsample-feats --n=1 ark:- ark:- |" exp/diag_ubm_1024/3.10.acc 
+# Invoked at Tue Jul 21 07:00:58 SGT 2020 from node04
+#
+# Started at Tue Jul 21 07:00:59 SGT 2020 on node02
+gmm-global-acc-stats '--gselect=ark,s,cs:gunzip -c exp/diag_ubm_1024/gselect.10.gz|' exp/diag_ubm_1024/3.dubm 'ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/10/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/10/vad.scp ark:- | subsample-feats --n=1 ark:- ark:- |' exp/diag_ubm_1024/3.10.acc 
+subsample-feats --n=1 ark:- ark:- 
+select-voiced-frames ark:- scp,s,cs:data/sre08/split40/10/vad.scp ark:- 
+add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/10/feats.scp ark:- 
+LOG (select-voiced-frames[5.5.433~1452-7637d]:main():select-voiced-frames.cc:106) Done selecting voiced frames; processed 146 utterances, 0 had errors.
+LOG (subsample-feats[5.5.433~1452-7637d]:main():subsample-feats.cc:115) Processed 146 feature matrices; 0 with errors.
+LOG (subsample-feats[5.5.433~1452-7637d]:main():subsample-feats.cc:117) Processed 2348000 input frames and 2348000 output frames.
+LOG (gmm-global-acc-stats[5.5.433~1452-7637d]:main():gmm-global-acc-stats.cc:148) Done 146 files; 0 with errors.
+LOG (gmm-global-acc-stats[5.5.433~1452-7637d]:main():gmm-global-acc-stats.cc:150) Overall likelihood per frame = -75.6217 over 2.348e+06 (weighted) frames.
+LOG (gmm-global-acc-stats[5.5.433~1452-7637d]:main():gmm-global-acc-stats.cc:155) Written accs to exp/diag_ubm_1024/3.10.acc
+# Ended (code 0) at Tue Jul 21 07:01:26 SGT 2020, elapsed time 28 seconds

@@ -1,0 +1,15 @@
+# ivector-extractor-sum-accs --parallel=true "ivector-extractor-acc-stats --num-threads=1 --num-samples-for-weights=3 exp/extractor_diag_c1024_i400/0.ie 'ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/15/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/15/vad.scp ark:- |' 'ark,s,cs:gunzip -c exp/extractor_diag_c1024_i400/post.15.gz|' -|" exp/extractor_diag_c1024_i400/acc.0.15 
+# Invoked at Tue Jul 21 07:38:49 SGT 2020 from node04
+#
+# Started at Tue Jul 21 07:38:59 SGT 2020 on node03
+ivector-extractor-sum-accs --parallel=true "ivector-extractor-acc-stats --num-threads=1 --num-samples-for-weights=3 exp/extractor_diag_c1024_i400/0.ie 'ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/15/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/15/vad.scp ark:- |' 'ark,s,cs:gunzip -c exp/extractor_diag_c1024_i400/post.15.gz|' -|" exp/extractor_diag_c1024_i400/acc.0.15 
+ivector-extractor-acc-stats --num-threads=1 --num-samples-for-weights=3 exp/extractor_diag_c1024_i400/0.ie 'ark,s,cs:add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/15/feats.scp ark:- | select-voiced-frames ark:- scp,s,cs:data/sre08/split40/15/vad.scp ark:- |' 'ark,s,cs:gunzip -c exp/extractor_diag_c1024_i400/post.15.gz|' - 
+add-deltas --delta-window=3 --delta-order=0 scp:data/sre08/split40/15/feats.scp ark:- 
+select-voiced-frames ark:- scp,s,cs:data/sre08/split40/15/vad.scp ark:- 
+LOG (ivector-extractor-acc-stats[5.5.433~1452-7637d]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-acc-stats[5.5.433~1452-7637d]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (select-voiced-frames[5.5.433~1452-7637d]:main():select-voiced-frames.cc:106) Done selecting voiced frames; processed 188 utterances, 0 had errors.
+LOG (ivector-extractor-acc-stats[5.5.433~1452-7637d]:main():ivector-extractor-acc-stats.cc:151) Done 188 files, 0 with errors.  Total frames 2988926
+LOG (ivector-extractor-acc-stats[5.5.433~1452-7637d]:main():ivector-extractor-acc-stats.cc:159) Wrote stats to -
+LOG (ivector-extractor-sum-accs[5.5.433~1452-7637d]:main():ivector-extractor-sum-accs.cc:83) Wrote summed stats to exp/extractor_diag_c1024_i400/acc.0.15
+# Ended (code 0) at Tue Jul 21 07:40:44 SGT 2020, elapsed time 115 seconds
