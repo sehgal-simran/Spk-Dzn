@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 ## :open_file_folder: Data Preparation 
- Kaldi style data prep will be required for the audio file you want to diarize. Data files of iaaa are stored in iaaa_test.
+ Kaldi style data prep will be required for the audio file you want to diarize. Data files of iaaa are stored in iaaa_test. Audio data is stored in a hdf5 format for easier reading from memory and can be retrieved as [iaaa.hdf5](https://drive.google.com/file/d/1fBfzdrFePB4fnqJcK5zE4lXP3cHlR34b/view?usp=sharing) with permission.
 
 ## :checkered_flag: Adapted Models 	
 The adapted models are present in [../RPNSD/experiment](https://github.com/sehgal-simran/Speaker-Diarization/tree/main/RPNSD/experiment) and also available to download from [here](https://drive.google.com/file/d/1_qGZ42zSgcrgBCm12gJz6IJyt5O0EUQq/view?usp=sharing)
