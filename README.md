@@ -52,3 +52,16 @@ The 3 systems are evaluated on the CALLHOME dataset with a collar of 0.25 secs u
 | Kaldi x-vector with LSTM | 16.52% | 6.52%| 18%| LSTM model is trained entirely on Callhome and tested using 5-fold cross validation|
 | RPNSD | 18.22% | 12.93% | 4%| RPNSD model is adapted and tested on Callhome using 5-fold cross validation|
 
+ ## Literature Reviewed
+ | Research Paper | Year|
+ |---|---|
+ |[Speaker Diarization with Region Proposal Network](https://arxiv.org/abs/2002.06220)|2020|
+ |[LSTM based Similarity Measurement with Spectral Clustering for Speaker Diarization](https://arxiv.org/abs/1907.10393)|2019|
+ |[Discriminative Neural Clustering for Speaker Diarization](https://arxiv.org/abs/1910.09703)|2019|
+ |[Fully Supervised Speaker Diarization](https://arxiv.org/abs/1810.04719)|2019|
+ |[End-to-End Neural Speaker Diarization with Self Attention](https://arxiv.org/abs/1909.06247)|2019|
+ |[End-to-End Neural Speaker Diarization with Permutation-Free Objectives](https://arxiv.org/abs/1909.05952)|2019|
+ |[Speaker Diarization with Deep Speaker Embeddings for DIHARD Challenge II](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2757.pdf)|2019|
+ |[BUT System Description for DIHARD Speech Diarization Challenge 2019](https://arxiv.org/abs/1910.08847)| 2019|
+ |[Speaker Diarization with LSTM](https://arxiv.org/abs/1710.10468)|2018|
+
