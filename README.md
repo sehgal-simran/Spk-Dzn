@@ -44,9 +44,9 @@ cd Speaker-Diarization
 
 ## Results
 
-The 3 systems are evaluated on the CALLHOME dataset with a collar of 0.25 secs using the standard md-eval.pl script for scoring. The inference time is simply the time taken for diarization/ total time of diarized speech
+The 3 systems are evaluated on the CALLHOME dataset with a collar of 0.25 secs using the standard md-eval.pl script for scoring. The inference time is simply the proportion of time taken for diarization out of total time of diarized speech. It is meant to give an idea about the speed of the system.
 
-| Pipeline | DER (overlap) | DER (no overlap) | Inference time (as % of total time to be diarized i.e audio length) | Testing Method
+| Pipeline | DER (overlap) | DER (no overlap) | Inference time| Testing Method
 |---|---|---|---|---|
 | Original Kaldi x-vector | 16.78% | 7.09% | 19%| PLDA is adapted and tested on Callhome using 2-fold cross validation|
 | Kaldi x-vector with LSTM | 16.52% | 6.52%| 18%| LSTM model is trained entirely on Callhome and tested using 5-fold cross validation|
