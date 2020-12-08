@@ -36,11 +36,9 @@ cd Speaker-Diarization
  2. <b><i>End-to-End/ Neural-based</b></i>: These are systems which combine many modules of the pipeline within a single (often neural network based) model. They have potential to be/already are end-to-end i.e input is audio and output is speaker labels.
  
  Thus, we decided to implement and review 3 approaches:
- 1. a) Kaldi's original x-vector [recipe](https://github.com/kaldi-asr/kaldi/blob/master/egs/callhome_diarization/v2/run.sh)
- 
- 1. b) Kaldi's x-vector with an [LSTM similarity](https://github.com/sehgal-simran/Spk-Dzn/tree/main/LSTM) scoring module
- 
- 2. a) [Region Proposal Network](https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.
+    a) Kaldi's original x-vector [recipe](https://github.com/kaldi-asr/kaldi/blob/master/egs/callhome_diarization/v2/run.sh)
+    b) Kaldi's x-vector with an [LSTM similarity](https://github.com/sehgal-simran/Spk-Dzn/tree/main/LSTM) scoring module
+    c) [Region Proposal Network](https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.
 
 ## Results
 
