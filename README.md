@@ -31,11 +31,24 @@ cd Speaker-Diarization
 
  ## Implemented Approaches
  To find a good baseline, we reviewed many recent works and found 2 common types Spk-Dzn of systems:
- 1. Kaldi-based: These are systems built on top of the robust kaldi speaker diarization recipe involving x-vectors, by modifying one or more components in the pipeline. 
+ 1. <b><i>Kaldi-based</b></i>: These are systems built on top of the robust kaldi speaker diarization recipe involving x-vectors, by modifying one or more components in the pipeline. 
  
- 2. End-to-End/ Neural-based: These are systems which combine many modules of the pipeline within a single (often neural network based) model. They have potential to be/already are end-to-end i.e input is audio and output is speaker labels.
+ 2. <b><i>End-to-End/ Neural-based</b></i>: These are systems which combine many modules of the pipeline within a single (often neural network based) model. They have potential to be/already are end-to-end i.e input is audio and output is speaker labels.
  
- Thus, we decided to implement and review 3 approaches: Kaldi's original x-vector [recipe](https://github.com/kaldi-asr/kaldi/blob/master/egs/callhome_diarization/v2/run.sh), Kaldi's x-vector with an [LSTM similarity](https://github.com/sehgal-simran/Spk-Dzn/tree/main/LSTM) scoring module and the [Region Proposal Network](https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.
+ Thus, we decided to implement and review 3 approaches:
+ 1. a) Kaldi's original x-vector [recipe](https://github.com/kaldi-asr/kaldi/blob/master/egs/callhome_diarization/v2/run.sh)
+ 
+ 1. b) Kaldi's x-vector with an [LSTM similarity](https://github.com/sehgal-simran/Spk-Dzn/tree/main/LSTM) scoring module
+ 
+ 2. a) [Region Proposal Network](https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.
 
+## Results
 
+The 3 systems are evaluated on the CALLHOME dataset with a collar of 0.25 secs using the standard md-eval.pl script for scoring. Kaldi's orginal recipe is tested after adapting PLDA model to CALLHOME using a 2-fold cross validation. The LSTM is trained entirely on CALLHOME and the system is tested using a 5-fold cross validation. The RPNSD model is trained on Mixer6, SRE and SWBD and adapted on CALLHOME using 5-fold cross validation.
+
+| Pipeline | DER with overlap Speech | DER without overlap speech | Inference time (as % of total time to be diarized i.e audio length) |
+|---|---|---|---|
+| Original Kaldi x-vector | 16.78% | 7.09% | 19%|
+| Kaldi x-vector with LSTM | 16.52% | 6.52%| 18%|
+| RPNSD | 18.22% | 12.93% | 4%|
 
