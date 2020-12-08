@@ -44,9 +44,9 @@ cd Speaker-Diarization
 
 ## Results
 
-The 3 systems are evaluated on the CALLHOME dataset with a collar of 0.25 secs using the standard md-eval.pl script for scoring. Kaldi's orginal recipe is tested after adapting PLDA model to CALLHOME using a 2-fold cross validation. The LSTM is trained entirely on CALLHOME and the system is tested using a 5-fold cross validation. The RPNSD model is trained on Mixer6, SRE and SWBD and adapted on CALLHOME using 5-fold cross validation.
+The 3 systems are evaluated on the CALLHOME dataset with a collar of 0.25 secs using the standard md-eval.pl script for scoring. The inference time is simply the time taken for diarization/ total time of diarized speech
 
-| Pipeline | DER with overlap Speech | DER without overlap speech | Inference time (as % of total time to be diarized i.e audio length) | Testing Method
+| Pipeline | DER (overlap) | DER (no overlap) | Inference time (as % of total time to be diarized i.e audio length) | Testing Method
 |---|---|---|---|---|
 | Original Kaldi x-vector | 16.78% | 7.09% | 19%| PLDA is adapted and tested on Callhome using 2-fold cross validation|
 | Kaldi x-vector with LSTM | 16.52% | 6.52%| 18%| LSTM model is trained entirely on Callhome and tested using 5-fold cross validation|
