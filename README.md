@@ -1,6 +1,6 @@
 
-## Speaker Diarization
-# Team
+# Speaker Diarization
+## Team
 An international research group from Nanyang Technical University Singapore, Hunan University China, BITS Pilani India headed by [Prof Chng Eng Siong](https://scholar.google.com/citations?user=FJodrCcAAAAJ&hl=en), [Prof Xionghu Zhong](https://scholar.google.com/citations?user=V-ISRXwAAAAJ&hl=en) and [Dr Van Tung Pham](https://scholar.google.com/citations?user=8o42XvkAAAAJ&hl=en)
 
 <p >
