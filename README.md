@@ -21,6 +21,14 @@ Speaker Diarization is a process to answer the question of 'who spoke when?' in 
  <p>
   <img src='logos/pipeline.png'/>
  </p> 
+ 
+ ## Implemented Approaches
+ To find a good baseline, we reviewed many recent works and found 2 common types Spk-Dzn of systems:
+ 1. Kaldi-based: These are systems built on top of the robust kaldi speaker diarization recipe involving x-vectors, by modifying one or more components in the pipeline. 
+ 
+ 2. End-to-End/ Neural-based: These are systems which combine many modules of the pipeline within a single (often neural network based) model. They have potential to be/already are end-to-end i.e input is audio and output is speaker labels.
+ 
+ Thus, we decided to implement and review 3 approaches: Kaldi's original x-vector recipe, Kaldi's x-vector with an LSTM similarity scoring module and the Region Proposal Network for Speaker Diarization.
 
 ## Install
 1. Clone this project
