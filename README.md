@@ -34,17 +34,17 @@ cd Speaker-Diarization
  
  Thus, we decided to implement and review 3 approaches:
  <br>
-   a) Kaldi's original x-vector [recipe](https://github.com/kaldi-asr/kaldi/blob/master/egs/callhome_diarization/v2/run.sh)
+   a) <b><i>Kaldi's original x-vector [recipe] </b></i>(https://github.com/kaldi-asr/kaldi/blob/master/egs/callhome_diarization/v2/run.sh)
      <p align="center">
      <img src='logos/kaldi.png' height=100/>
      </p> 
  
-   b) Kaldi's x-vector with an [LSTM similarity](https://github.com/sehgal-simran/Spk-Dzn/tree/main/LSTM) scoring module
+   b) <b><i>Kaldi's x-vector with an [LSTM similarity]</b></i>(https://github.com/sehgal-simran/Spk-Dzn/tree/main/LSTM) scoring module
      <p align="center">
      <img src='logos/lstm.png'height=100/>
      </p> 
  
-   c) [Region Proposal Network](https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.
+   c) <b><i>[Region Proposal Network]</b></i>(https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.
 <p align="center">
      <img src='logos/rpnsd.png' height=100/>
      </p> 
