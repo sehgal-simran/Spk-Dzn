@@ -12,7 +12,7 @@ An international research group from Nanyang Technical University Singapore, Hun
 ##  Problem Statement
 Speaker Diarization is a process to answer the question of 'who spoke when?' in an audio file. It annotates timeframes in an audio according to the speaker of the frame.
 
-<p><center>
+<p align="center">
   <img src='logos/spk-dzn.png'/>
  </p></center>
  
