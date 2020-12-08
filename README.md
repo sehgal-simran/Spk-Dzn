@@ -44,7 +44,7 @@ cd Speaker-Diarization
      <img src='logos/lstm.png' height=100/>
      </p> 
  
-  <b> c)[Region Proposal Network](https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.</b>
+  <b> c) [Region Proposal Network](https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.</b>
         <p align="center">
        <img src='logos/rpnsd.png' height=100/>
          </p> 
