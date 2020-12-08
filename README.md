@@ -27,7 +27,7 @@ cd Speaker-Diarization
 ```
 
  ## Implemented Approaches
- To find a good baseline, we reviewed many recent works and found 2 common types Spk-Dzn of systems:
+ To find a good baseline, we reviewed many recent works and found 2 common types of systems:
  1. <b><i>Kaldi-based</b></i>: These are systems built on top of the robust kaldi speaker diarization recipe involving x-vectors, by modifying one or more components in the pipeline. 
  
  2. <b><i>End-to-End/ Neural-based</b></i>: These are systems which combine many modules of the pipeline within a single (often neural network based) model. They have potential to be/already are end-to-end i.e input is audio and output is speaker labels.
@@ -45,9 +45,10 @@ cd Speaker-Diarization
      </p> 
  
   <b> c)[Region Proposal Network](https://github.com/sehgal-simran/Spk-Dzn/tree/main/RPNSD) for Speaker Diarization.</b>
-<p align="center">
-     <img src='logos/rpnsd.png' height=100/>
-     </p> 
+        <p align="center">
+       <img src='logos/rpnsd.png' height=100/>
+         </p> 
+     
 ## Results
 
 The 3 systems are evaluated on the CALLHOME dataset with a collar of 0.25 secs using the standard md-eval.pl script for scoring. The inference time is simply the proportion of time taken for diarization out of total time of diarized speech. It is meant to give an idea about the speed of the system.
